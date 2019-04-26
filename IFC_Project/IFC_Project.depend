@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1556287259 source:/Users/axelvelez/IFC_Project/main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"saisie.h"
+
+1556110975 /Users/axelvelez/IFC_Project/saisie.h
+
+1556287810 source:/Users/axelvelez/IFC_Project/lectureFichier.c
+	<stdio.h>
+	<stdlib.h>
+

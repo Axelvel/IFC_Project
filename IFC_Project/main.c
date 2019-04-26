@@ -2,21 +2,39 @@
 #include <stdio.h>
 #include <string.h>
 #include "saisie.h"
+#include "lectureFichier.h"
 
 
 int main() {
 
-    char array[100] = "";
+    //char array[100] = "";
     FILE* fichier = NULL;
     fichier = fopen("./IFC_Project/fichier.txt", "r+");
+  //  int c;
 
     if (fichier != NULL){
 
-        fgets(array,50,fichier);
-        printf("%s\n", array);
+            lectureFichier(fichier);
+
+            lectureFichier(fichier);
+
+       /* while ((c = getc(fichier)) != '#' && c != EOF){
+            fseek(fichier, -1, SEEK_CUR);
+            fgets(array,100,fichier);
+            printf("%s", array);
+        }
+
+        while ((c = getc(fichier)) != '#' && c != EOF){
+            fseek(fichier, -1, SEEK_CUR);
+            fgets(array,100,fichier);
+            printf("%s", array);
+        }
+
+        */
+
 
         //Position du curseur
-        printf("position du curseur : %ld",ftell(fichier));
+        printf("\nposition du curseur : %ld \n",ftell(fichier));
         fclose(fichier);
     } else {
 
