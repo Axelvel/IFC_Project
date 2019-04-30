@@ -1,12 +1,11 @@
-@7 55
-Test
-Test2
-1234
+@4 1
+Combien font 2+2 ?
 #
 
-@2 5
-Test3
-Test4
+@3 2
+Resoudre l'équation suivante :
+1 + x = 4
+Combien vaut x ?
 #
 
 

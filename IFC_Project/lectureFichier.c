@@ -11,7 +11,7 @@ void lectureFichier(FILE * fichier){
             printf("%s", array);
         }
 
-     printf("\n");
+     printf("\n\n\n");
 
     while ((c = getc(fichier)) != '@' && c != EOF) {
 

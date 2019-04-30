@@ -22,13 +22,13 @@ int main() {
     if (fichier != NULL){
             int nb_question = nombreQuestions(fichier);
 
-            printf("Il y a %d questions dans cet exercice \n\n", nombreQuestions(fichier));
+            printf("\nIl y a %d questions dans cet exercice \n\n", nombreQuestions(fichier));
 
 
       //  for (int i = 0; i < nombreQuestions(fichier)+ 1; i++) {
 do {
 
-        printf("Question #%d \n", i);
+        printf("Question %d/%d : \n\n", i, nb_question);
             fseek(fichier, pos_cur, SEEK_SET);
             fscanf(fichier, "@%d %d", &sol, &pts);
             printf("solution : %d\n", sol);
