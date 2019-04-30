@@ -1,13 +1,25 @@
 # depslib dependency file v1.0
-1556287259 source:/Users/axelvelez/IFC_Project/main.c
+1556626800 source:/Users/axelvelez/IFC_Project/main.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
 	"saisie.h"
+	"lectureFichier.h"
+	"nbQuestions.h"
 
 1556110975 /Users/axelvelez/IFC_Project/saisie.h
 
-1556287810 source:/Users/axelvelez/IFC_Project/lectureFichier.c
+1556618024 source:/Users/axelvelez/IFC_Project/lectureFichier.c
 	<stdio.h>
 	<stdlib.h>
+
+1556287620 /Users/axelvelez/IFC_Project/lectureFichier.h
+
+1556613373 source:/Users/axelvelez/IFC_Project/nbQuestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1556614551 /Users/axelvelez/IFC_Project/nombreQuestions.h
+
+1556614551 /Users/axelvelez/IFC_Project/nbQuestions.h
 
