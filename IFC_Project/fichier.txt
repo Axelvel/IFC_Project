@@ -3,7 +3,7 @@ Combien font 2+2 ?
 #
 
 @3 2
-Resoudre l'équation suivante :
+Résoudre l'équation suivante :
 1 + x = 4
 Combien vaut x ?
 #
