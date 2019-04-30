@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void lectureFichier(FILE * fichier){
-    int c;
+    int c; //Char
     char array[100] = "";
 
     while ((c = getc(fichier)) != '#' && c != EOF){
@@ -10,5 +10,20 @@ void lectureFichier(FILE * fichier){
             fgets(array,100,fichier);
             printf("%s", array);
         }
+
+     printf("\n");
+
+    while ((c = getc(fichier)) != '@' && c != EOF) {
+
+       // if ((c = getc(fichier)) == '@') {
+
+          //  printf("\n***Position du curseur : %ld \n",ftell(fichier));
+         //   fseek(fichier, -1, SEEK_CUR);
+         //   printf("\n***Position du curseur : %ld \n",ftell(fichier));
+
+        //}
+
+    }
+    fseek(fichier, -1, SEEK_CUR);
 
 }
