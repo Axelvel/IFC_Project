@@ -1,19 +1,22 @@
 # depslib dependency file v1.0
-1558434892 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.c
+1558445864 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.c
 	<stdio.h>
 	<stdlib.h>
+	"struct.h"
+	<string.h>
 
-1558434925 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
+1558445814 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
+	"struct.h"
 	"saisie.h"
 	"lectureFichier.h"
 	"nbQuestions.h"
 
 1557505456 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\saisie.h
 
-1557505520 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.h
+1558445631 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.h
 
 1557505577 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\nbquestions.h
 
@@ -25,4 +28,6 @@
 	<stdlib.h>
 	<stdio.h>
 	<ctype.h>
+
+1558445012 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\struct.h
 
