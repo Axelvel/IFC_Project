@@ -13,9 +13,9 @@ void lectureFichier(FILE * fichier, S_question questions[], int i){
           //  printf("%s", array);
         }
 
-    strcpy(questions[i].enonce,array);
+        strcpy(questions[i].enonce,array);
 
-     //printf("\n\n\n");
+
     //Permet de retourner jusqu'au @ suivant, puis on recule de 1
    while ((c = getc(fichier)) != '@' && c != EOF) {
     }

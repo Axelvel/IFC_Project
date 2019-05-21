@@ -1,18 +1,20 @@
 # depslib dependency file v1.0
-1558446392 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.c
+1558447634 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.c
 	<stdio.h>
 	<stdlib.h>
 	"struct.h"
 	<string.h>
 
-1558446392 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
+1558448129 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
+	"choixFichier.h"
 	"struct.h"
-	"saisie.h"
-	"lectureFichier.h"
 	"nbQuestions.h"
+	"saisie.h"
+	"execution.h"
+	"lectureFichier.h"
 
 1557505456 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\saisie.h
 
@@ -30,4 +32,18 @@
 	<ctype.h>
 
 1558445012 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\struct.h
+
+1558447651 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"struct.h"
+
+1558448007 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\choixfichier.c
+	<stdio.h>
+	<stdlib.h>
+
+1558448043 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\choixfichier.h
+
+1558447482 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\execution.h
 
