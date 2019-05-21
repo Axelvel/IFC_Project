@@ -1,0 +1,6 @@
+#ifndef LECTUREFICHIER_H_INCLUDED
+#define LECTUREFICHIER_H_INCLUDED
+
+void lectureFichier(FILE * fichier);
+
+#endif // LECTUREFICHIER_H_INCLUDED

@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1558434892 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+
+1558434925 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"saisie.h"
+	"lectureFichier.h"
+	"nbQuestions.h"
+
+1557505456 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\saisie.h
+
+1557505520 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.h
+
+1557505577 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\nbquestions.h
+
+1557505589 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1557505658 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\saisie.c
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+
