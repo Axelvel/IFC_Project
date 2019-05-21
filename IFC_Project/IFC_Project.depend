@@ -23,3 +23,29 @@
 
 1556614551 /Users/axelvelez/IFC_Project/nbQuestions.h
 
+1556595772 source:/Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/lectureFichier.c
+	<stdio.h>
+	<stdlib.h>
+
+1558441562 source:/Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"saisie.h"
+	"lectureFichier.h"
+	"nbQuestions.h"
+
+1556595772 /Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/saisie.h
+
+1556595772 /Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/lectureFichier.h
+
+1556595772 /Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/nbQuestions.h
+
+1556595772 source:/Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/nbQuestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1558441827 source:/Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/choixFichier.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -4,20 +4,29 @@
 #include "saisie.h"
 #include "lectureFichier.h"
 #include "nbQuestions.h"
-
+#include "choixFichier.h"
 
 int main() {
 
     //char array[100] = "";
     FILE* fichier = NULL;
-    fichier = fopen("./IFC_Project/fichier.txt", "r+");
+    //fichier = fopen("./IFC_Project/fichier.txt", "r+");
     int sol;
     int pts;
   //  int c;
   int i = 1;
-
-
+  char nomFichier[20] = "";
   long pos_cur = 0;
+
+
+
+
+
+
+    choixFichier(nomFichier);
+    fichier = fopen(nomFichier, "r+");
+
+
 
     if (fichier != NULL){
             int nb_question = nombreQuestions(fichier);
