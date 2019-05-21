@@ -1,0 +1,6 @@
+#ifndef CHOIXFICHIER_H_INCLUDED
+#define CHOIXFICHIER_H_INCLUDED
+
+void choixFichier();
+
+#endif // CHOIXFICHIER_H_INCLUDED
