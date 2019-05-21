@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1558445864 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.c
+1558446392 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.c
 	<stdio.h>
 	<stdlib.h>
 	"struct.h"
 	<string.h>
 
-1558445814 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
+1558446392 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>

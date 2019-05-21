@@ -14,13 +14,11 @@ int main() {
     FILE* fichier = NULL;
     fichier = fopen("./fichier.txt", "r+");
 
-    //int sol; //solution des questions
-    //int pts; //points attribués aux questions
-
     int i = 0;
+    int j = 0;
     long pos_cur = 0; //position du curseur
 
-    //int reponse; //reponse de l'utilisateur
+    int reponse; //reponse de l'utilisateur
 
 
 
@@ -35,16 +33,28 @@ int main() {
         ////ON ENREGISTRE TOUTES LES DONNES DANS LE TABLEAU DE STRUCTURE(ICI J'AI EGALEMENT FAIS EN SORTE DE TOUT AFFICHER POUR VERIFIER MAIS ON ENLEVERA CA APRES)
          do {
 
-                printf("Question %d/%d : \n\n", i+1, nb_question);
                 fseek(fichier, pos_cur, SEEK_SET);
                 fscanf(fichier, "@%i %i", &questions[i].solution, &questions[i].points);
-                printf("solution : %i\n", questions[i].solution);
-                printf("nombre de points : %i\n", questions[i].points);
                 lectureFichier(fichier,questions,i);
-                printf("%s",questions[i].enonce);
                 pos_cur = ftell(fichier);
                 i++;
-                } while (i < nb_question);
+            } while (i < nb_question);
+        ////ON POSE LES QUESTIONS UNES PAR UNE. SI ON A BON ON PASSE A CELLE DAPRES, SINON CA SE REPETE(a ameliorer pour mode examen et entrainement cc matteo)
+            for(j=0;j<nb_question;j++)
+            {
+                do{
+                printf("--- Question %d/%d : \n", j+1, nb_question);
+                printf("\n%s",questions[j].enonce);
+                printf("SolutioNn : %i", questions[j].solution);
+                printf("\nnombre de points : %i", questions[j].points);
+                printf("\n\nEntrez votre reponse :");
+                scanf("%i",&reponse);
+
+                }
+                while(reponse!=questions[j].solution);
+
+            }
+
 
         fclose(fichier);
     } else {
