@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1558555056 source:c:\users\mattéo\desktop\utbm\ifc\grosse folle\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"choixFichier.h"
+	"struct.h"
+	"nbQuestions.h"
+	"saisie.h"
+	"execution.h"
+	"lectureFichier.h"
+
+1558449992 c:\users\mattéo\desktop\utbm\ifc\grosse folle\choixfichier.h
+
+1558449992 c:\users\mattéo\desktop\utbm\ifc\grosse folle\struct.h
+
+1558449992 c:\users\mattéo\desktop\utbm\ifc\grosse folle\nbquestions.h
+
+1558449992 c:\users\mattéo\desktop\utbm\ifc\grosse folle\saisie.h
+
+1558555056 c:\users\mattéo\desktop\utbm\ifc\grosse folle\execution.h
+
+1558449992 c:\users\mattéo\desktop\utbm\ifc\grosse folle\lecturefichier.h
+
+1558449992 source:c:\users\mattéo\desktop\utbm\ifc\grosse folle\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1558449992 source:c:\users\mattéo\desktop\utbm\ifc\grosse folle\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1558449992 source:c:\users\mattéo\desktop\utbm\ifc\grosse folle\saisie.c
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+
+1558449992 source:c:\users\mattéo\desktop\utbm\ifc\grosse folle\choixfichier.c
+	<stdio.h>
+	<stdlib.h>
+
+1558449992 source:c:\users\mattéo\desktop\utbm\ifc\grosse folle\comptageexercices.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1558551628 source:c:\users\mattéo\desktop\utbm\ifc\grosse folle\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"comptageExercices.h"
+
+1558449992 c:\users\mattéo\desktop\utbm\ifc\grosse folle\comptageexercices.h
+
+1558555160 source:c:\users\mattéo\desktop\utbm\ifc\grosse folle\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"struct.h"
+

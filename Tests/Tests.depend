@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1558448208 source:c:\users\mattéo\desktop\utbm\ifc\tests\affichage_fichiers_locaux.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1558446477 source:c:\users\mattéo\desktop\utbm\ifc\tests\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Menu.h"
+
+1558446117 source:c:\users\mattéo\desktop\utbm\ifc\tests\recherche_dans_chaine_caracteres.c
+
+1558448057 source:c:\users\mattéo\desktop\utbm\ifc\tests\menu.c
+	<stdio.h>
+	<stdlib.h>
+	"Affichage_fichiers_locaux.h"
+
+1558448002 c:\users\mattéo\desktop\utbm\ifc\tests\affichage_fichiers_locaux.h
+
+1558446477 c:\users\mattéo\desktop\utbm\ifc\tests\menu.h
+
