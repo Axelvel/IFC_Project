@@ -8,9 +8,16 @@ void execution(S_question questions[],int nb_question,int mode)
 
     int reponse; //reponse de l'utilisateur
     int j=0;
-   // int note; //servira à compter les points
+   // int note; //servira Ã  compter les points
     int nb_tentatives;
     ////ON POSE LES QUESTIONS UNES PAR UNE. SI ON A BON ON PASSE A CELLE DAPRES, SINON CA SE REPETE(a ameliorer pour mode examen et entrainement cc matteo)
+    
+    //Fonction de timer
+time_t temps_initial, temps_ecoule;
+
+temps_initial = time(NULL);
+
+
     if(mode==0)
     {
         for(j=0;j<nb_question;j++)
@@ -48,6 +55,9 @@ void execution(S_question questions[],int nb_question,int mode)
 
 
             }
+        temps_ecoule = time(NULL);
+
+printf("Vous avez mit %f secondes pour resoudre cet exercice !", difftime(temps_ecoule, temps_initial));
         fclose(fichier_resultat);
     }
 }
