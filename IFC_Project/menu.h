@@ -2,6 +2,6 @@
 #ifndef MENU_H_INCLUDED
 #define MENU_H_INCLUDED
 
-int Menu(void);
+void menu(char*);
 
 #endif // MENU_H_INCLUDED
