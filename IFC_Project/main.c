@@ -1,69 +1,51 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "saisie.h"
-#include "lectureFichier.h"
-#include "nbQuestions.h"
 #include "choixFichier.h"
+#include "struct.h"
+#include "nbQuestions.h"
+#include "saisie.h"
+#include "execution.h"
+#include "lectureFichier.h"
+
+
+
+
 
 int main() {
 
-    //char array[100] = "";
-    FILE* fichier = NULL;
-    //fichier = fopen("./IFC_Project/fichier.txt", "r+");
-    int sol;
-    int pts;
-  //  int c;
-  int i = 1;
-  char nomFichier[20] = "";
-  long pos_cur = 0;
+        ////VARIABLES////
+FILE* fichier = NULL;
 
-
-
-
-
+    int i = 0;
+    int mode=1; // mode 1 pour examen ou 0 pour entrainement
+    long pos_cur = 0; //position du curseur
+    char nomFichier[20]="";
 
     choixFichier(nomFichier);
+
     fichier = fopen(nomFichier, "r+");
 
 
-
     if (fichier != NULL){
-            int nb_question = nombreQuestions(fichier);
+            ////CALCUL NOMBRE DE QUESTIONS////
+        int nb_question = nombreQuestions(fichier);
+        printf("\nIl y a %d questions dans cet exercice \n\n", nombreQuestions(fichier));
 
-            printf("\nIl y a %d questions dans cet exercice \n\n", nombreQuestions(fichier));
+        ////ON CREE LE TABLEAU DE STRUCTURE
+         S_question questions[nb_question];
 
+        ////ON ENREGISTRE TOUTES LES DONNES DANS LE TABLEAU DE STRUCTURE(ICI J'AI EGALEMENT FAIS EN SORTE DE TOUT AFFICHER POUR VERIFIER MAIS ON ENLEVERA CA APRES)
+         do {
 
-      //  for (int i = 0; i < nombreQuestions(fichier)+ 1; i++) {
-do {
+                fseek(fichier, pos_cur, SEEK_SET);
+                fscanf(fichier, "@%i %i", &questions[i].solution, &questions[i].points);
+                lectureFichier(fichier,questions,i);
+                pos_cur = ftell(fichier);
+                i++;
+            } while (i < nb_question);
 
-        printf("Question %d/%d : \n\n", i, nb_question);
-            fseek(fichier, pos_cur, SEEK_SET);
-            fscanf(fichier, "@%d %d", &sol, &pts);
-            printf("solution : %d\n", sol);
-            printf("nombre de points : %d\n", pts);
-            lectureFichier(fichier);
-            pos_cur = ftell(fichier);
-            //printf("\n*Position du curseur : %ld \n",ftell(fichier));
-            i++;
-
-} while (i < nb_question +1);
-      //  }
-
-
-
-
-           /* fscanf(fichier, "@%d %d", &sol, &pts);
-           // printf("\nPosition du curseur : %ld \n",ftell(fichier));
-            printf("solution : %d\n", sol);
-            printf("nombre de points : %d\n", pts);
-            lectureFichier(fichier);
-
-
-            fscanf(fichier, "@%d %d", &sol, &pts);
-            printf("solution : %d\n", sol);
-            printf("nombre de points : %d\n", pts);
-            lectureFichier(fichier); */
+        execution(questions,nb_question,mode);
 
 
         fclose(fichier);
@@ -72,12 +54,7 @@ do {
     printf("\n\nErreur, le fichier texte n'a pas ete ouvert \n");
     }
 
-  /*  char rep;
-    printf("Quelle matiere voulez vous reviser ? \n");
-    rep = saisie();
-    printf("%c\n", rep);
-    return 0;
-*/
+
 }
 
 

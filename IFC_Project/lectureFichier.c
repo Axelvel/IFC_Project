@@ -1,28 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "struct.h"
+#include <string.h>
 
-void lectureFichier(FILE * fichier){
+void lectureFichier(FILE * fichier, S_question questions[], int i){
     int c; //Char
     char array[100] = "";
 
     while ((c = getc(fichier)) != '#' && c != EOF){
             fseek(fichier, -1, SEEK_CUR);
             fgets(array,100,fichier);
-            printf("%s", array);
+          //  printf("%s", array);
         }
 
-     printf("\n\n\n");
+        strcpy(questions[i].enonce,array);
 
-    while ((c = getc(fichier)) != '@' && c != EOF) {
 
-       // if ((c = getc(fichier)) == '@') {
-
-          //  printf("\n***Position du curseur : %ld \n",ftell(fichier));
-         //   fseek(fichier, -1, SEEK_CUR);
-         //   printf("\n***Position du curseur : %ld \n",ftell(fichier));
-
-        //}
-
+    //Permet de retourner jusqu'au @ suivant, puis on recule de 1
+   while ((c = getc(fichier)) != '@' && c != EOF) {
     }
     fseek(fichier, -1, SEEK_CUR);
 

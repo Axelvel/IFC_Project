@@ -1,51 +1,56 @@
 # depslib dependency file v1.0
-1556627709 source:/Users/axelvelez/IFC_Project/main.c
+1558567064 source:/Users/axelvelez/Downloads/IFC_Project/choixFichier.c
+	<stdio.h>
+	<stdlib.h>
+
+1558567064 source:/Users/axelvelez/Downloads/IFC_Project/comptageExercices.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1558567064 source:/Users/axelvelez/Downloads/IFC_Project/lectureFichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1558567064 /Users/axelvelez/Downloads/IFC_Project/struct.h
+
+1558567064 source:/Users/axelvelez/Downloads/IFC_Project/main.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
-	"saisie.h"
-	"lectureFichier.h"
+	"choixFichier.h"
+	"struct.h"
 	"nbQuestions.h"
-
-1556110975 /Users/axelvelez/IFC_Project/saisie.h
-
-1556627571 source:/Users/axelvelez/IFC_Project/lectureFichier.c
-	<stdio.h>
-	<stdlib.h>
-
-1556287620 /Users/axelvelez/IFC_Project/lectureFichier.h
-
-1556613373 source:/Users/axelvelez/IFC_Project/nbQuestions.c
-	<stdio.h>
-	<stdlib.h>
-
-1556614551 /Users/axelvelez/IFC_Project/nombreQuestions.h
-
-1556614551 /Users/axelvelez/IFC_Project/nbQuestions.h
-
-1556595772 source:/Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/lectureFichier.c
-	<stdio.h>
-	<stdlib.h>
-
-1558441562 source:/Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/main.c
-	<stdlib.h>
-	<stdio.h>
-	<string.h>
 	"saisie.h"
+	"execution.h"
 	"lectureFichier.h"
-	"nbQuestions.h"
 
-1556595772 /Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/saisie.h
+1558567064 /Users/axelvelez/Downloads/IFC_Project/choixFichier.h
 
-1556595772 /Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/lectureFichier.h
+1558567064 /Users/axelvelez/Downloads/IFC_Project/nbQuestions.h
 
-1556595772 /Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/nbQuestions.h
+1558567064 /Users/axelvelez/Downloads/IFC_Project/saisie.h
 
-1556595772 source:/Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/nbQuestions.c
+1558567064 /Users/axelvelez/Downloads/IFC_Project/execution.h
+
+1558567064 /Users/axelvelez/Downloads/IFC_Project/lectureFichier.h
+
+1558567064 source:/Users/axelvelez/Downloads/IFC_Project/menu.c
+	<stdio.h>
+	<stdlib.h>
+	"comptageExercices.h"
+
+1558567064 /Users/axelvelez/Downloads/IFC_Project/comptageExercices.h
+
+1558567064 source:/Users/axelvelez/Downloads/IFC_Project/nbQuestions.c
 	<stdio.h>
 	<stdlib.h>
 
-1558441827 source:/Users/axelvelez/Downloads/IFC_Project-master-2/IFC_Project/choixFichier.c
-	<stdio.h>
+1558567064 source:/Users/axelvelez/Downloads/IFC_Project/saisie.c
 	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
 

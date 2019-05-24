@@ -1,4 +1,6 @@
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
 
 char saisie() {
   char reponse;
