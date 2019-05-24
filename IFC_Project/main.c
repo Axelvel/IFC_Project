@@ -1,16 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include "menu.h"
 #include <string.h>
-#include "choixFichier.h"
+#include "comptageExercices.h"
 #include "struct.h"
 #include "nbQuestions.h"
 #include "saisie.h"
 #include "execution.h"
 #include "lectureFichier.h"
-
-
-
-
 
 int main() {
 
@@ -18,11 +15,14 @@ int main() {
 FILE* fichier = NULL;
 
     int i = 0;
-    int mode=1; // mode 1 pour examen ou 0 pour entrainement
+    int mode = 0;
     long pos_cur = 0; //position du curseur
     char nomFichier[20]="";
 
-    choixFichier(nomFichier);
+    menu(nomFichier);
+    printf("\nVous avez choisi : %s",nomFichier);
+
+    //choixFichier(nomFichier);
 
     fichier = fopen(nomFichier, "r+");
 

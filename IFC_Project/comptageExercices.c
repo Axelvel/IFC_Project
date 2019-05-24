@@ -3,7 +3,7 @@
 #include <dirent.h>
 #include <string.h>
 
-int comptageExercices(char exos_dispos[][25])
+int comptageExercices(char toutfichier[][25])
 {
     struct dirent *lecture;
     int nbfichier=0;
@@ -11,9 +11,11 @@ int comptageExercices(char exos_dispos[][25])
     rep = opendir("." );
     while ((lecture = readdir(rep)))
         {
-        printf("%s\n", lecture->d_name);
-        strcpy(lecture->d_name,exos_dispos[nbfichier++]);
+        //printf("%s\n", lecture->d_name);
+        strcpy(toutfichier[nbfichier++],lecture->d_name);
         }
     closedir(rep);
+
+
     return nbfichier;
 }
