@@ -31,7 +31,7 @@ void Creation_exercice()
         printf("\n----------Question %d/%d----------",k+1,nb_questions);
         printf("\nQuel est l'intitule de la question?");
         gets(intitule);
-        printf("\nQuelle est la solution à la question?");
+        printf("\nQuelle est la solution Ã  la question?");
         gets(solution);
         printf("\nDonnez le nombre de points de cette question");
         scanf("%d",&nb_pts);
