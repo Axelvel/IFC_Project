@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1558447634 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1558706869 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"comptageExercices.h"
+	"menu.h"
+	"struct.h"
+	"nbQuestions.h"
+	"saisie.h"
+	"execution.h"
+	"lectureFichier.h"
+
+1557505456 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\saisie.h
+
+1558445631 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\lecturefichier.h
+
+1557505577 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\nbquestions.h
+
+1557505589 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1557505658 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\saisie.c
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+
+1558445012 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\struct.h
+
+1558706851 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"struct.h"
+
+1558448007 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\choixfichier.c
+	<stdio.h>
+	<stdlib.h>
+
+1558448043 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\choixfichier.h
+
+1558706561 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\execution.h
+
+1558704583 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\comptageexercices.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1558704583 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\comptageexercices.h
+
+1558705963 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\menu.h
+
+1558706896 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comptageExercices.h"
+
