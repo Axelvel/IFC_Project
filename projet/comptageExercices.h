@@ -1,6 +1,0 @@
-#ifndef COMPTAGEEXERCICES_H_INCLUDED
-#define COMPTAGEEXERCICES_H_INCLUDED
-
-int comptageExercices(char[][25]);
-
-#endif // COMPTAGEEXERCICES_H_INCLUDED
