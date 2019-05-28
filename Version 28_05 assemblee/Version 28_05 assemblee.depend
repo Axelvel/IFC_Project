@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1559052528 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\cherche_exercice.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1559048869 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\choixfichier.c
+	<stdio.h>
+	<stdlib.h>
+
+1559048869 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\comptageexercices.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1559048868 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\creation_exercice.c
+	<stdio.h>
+	<stdlib.h>
+
+1559048869 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"struct.h"
+
+1559048869 c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\struct.h
+
+1559048869 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1559048869 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1559048869 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\saisie.c
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+
+1559052940 source:c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"comptageExercices.h"
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+	"cherche_exercice.h"
+
+1559048869 c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\comptageexercices.h
+
+1559048869 c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\nbquestions.h
+
+1559048869 c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\execution.h
+
+1559048869 c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\lecturefichier.h
+
+1559051940 c:\users\mattéo\desktop\utbm\ifc\version 28_05 assemblee\cherche_exercice.h
+
