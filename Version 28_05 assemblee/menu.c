@@ -19,7 +19,7 @@ int menu()
     int i =0;
     long pos_cur = 0; //position du curseur
 
-    /*Chercher les différents exercices possibles et les mettre sous la forme d'une liste */
+    /*Chercher les diffÃ©rents exercices possibles et les mettre sous la forme d'une liste */
     char exos_dispos[50][25];
     nb_exos=cherche_exercice(exos_dispos);
     //printf("%d",nb_exos);
@@ -57,6 +57,8 @@ int menu()
             }
     while (i < nb_question);
 
+    printf("Entrez 0 pour le mode entrainement et 1 pour le mode examen");
+    scanf("%i,&mode);
     execution(questions,nb_question,mode);
 
 
