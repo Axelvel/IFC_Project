@@ -31,10 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="choixFichier.c">
+		<Unit filename="buffer.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="choixFichier.h" />
+		<Unit filename="buffer.h" />
 		<Unit filename="comptageExercices.c">
 			<Option compilerVar="CC" />
 		</Unit>

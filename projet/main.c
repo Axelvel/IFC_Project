@@ -8,6 +8,7 @@
 #include "saisie.h"
 #include "execution.h"
 #include "lectureFichier.h"
+#include "buffer.h"
 
 int main() {
 
@@ -17,12 +18,11 @@ FILE* fichier = NULL;
     int i = 0;
     int mode = 1;
     long pos_cur = 0; //position du curseur
-    char nomFichier[20]="";
+    char nomFichier[40]="";
+
 
     menu(nomFichier);
-    printf("\nVous avez choisi : %s",nomFichier);
-
-    //choixFichier(nomFichier);
+    system("cls");
 
     fichier = fopen(nomFichier, "r+");
 
@@ -30,7 +30,6 @@ FILE* fichier = NULL;
     if (fichier != NULL){
             ////CALCUL NOMBRE DE QUESTIONS////
         int nb_question = nombreQuestions(fichier);
-        printf("\nIl y a %d questions dans cet exercice \n\n", nombreQuestions(fichier));
 
         ////ON CREE LE TABLEAU DE STRUCTURE
          S_question questions[nb_question];

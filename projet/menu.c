@@ -20,7 +20,7 @@ void menu(char * nomFichier)
     //On récupère uniquement les fichiers texte dans le tableau exos_dispos
     for(i=0;i<100;i++)
     {
-        if((strcmp(&toutfichier[i][strlen(toutfichier[i])-3],"txt")==0)&&(strcmp(toutfichier[i],"resultat.txt")!=0))
+        if((strcmp(&toutfichier[i][strlen(toutfichier[i])-3],"txt")==0))
         {
             strncpy(exos_dispos[j],toutfichier[i],strlen(toutfichier[i])-4);
             exos_dispos[j][strlen(toutfichier[i])-4]='\0';
@@ -38,6 +38,7 @@ void menu(char * nomFichier)
 
     strcat(nomFichier,exos_dispos[choix]);
     strcat(nomFichier,".txt");
+
 
     /*Afficher les exos disponibles sous la forme -maths debutant tapez A*/
 }

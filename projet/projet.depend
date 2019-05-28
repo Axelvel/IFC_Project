@@ -5,7 +5,7 @@
 	"struct.h"
 	<string.h>
 
-1558706869 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
+1558709377 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\main.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
@@ -16,6 +16,7 @@
 	"saisie.h"
 	"execution.h"
 	"lectureFichier.h"
+	"buffer.h"
 
 1557505456 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\saisie.h
 
@@ -34,11 +35,12 @@
 
 1558445012 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\struct.h
 
-1558706851 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\execution.c
+1558709105 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\execution.c
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
 	"struct.h"
+	"buffer.h"
 
 1558448007 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\choixfichier.c
 	<stdio.h>
@@ -48,19 +50,25 @@
 
 1558706561 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\execution.h
 
-1558704583 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\comptageexercices.c
+1558709328 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\comptageexercices.c
 	<stdio.h>
 	<sys/types.h>
 	<dirent.h>
 	<string.h>
 
-1558704583 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\comptageexercices.h
+1558709329 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\comptageexercices.h
 
-1558705963 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\menu.h
+1558707828 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\menu.h
 
-1558706896 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\menu.c
+1558709010 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\menu.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"comptageExercices.h"
+
+1558708686 source:c:\users\teimo\documents\cours\tc02\ifc\projet\projet\buffer.c
+	<stdio.h>
+	<stdlib.h>
+
+1558708684 c:\users\teimo\documents\cours\tc02\ifc\projet\projet\buffer.h
 
