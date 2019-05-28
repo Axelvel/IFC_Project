@@ -19,7 +19,7 @@ int cherche_exercice(char exos_dispos[][25])
 
     for(int i=0;i<nbfichier;i++)
     {
-        if((strcmp(&noms_des_fichiers[i][strlen(noms_des_fichiers[i])-3],"txt")==0)&&(strcmp(noms_des_fichiers[i],"resultat.txt")!=0))
+        if((strcmp(&noms_des_fichiers[i][strlen(noms_des_fichiers[i])-3],"txt")==0))
         {
             strncpy(exos_dispos[nb_exos],noms_des_fichiers[i],strlen(noms_des_fichiers[i])-4);
             exos_dispos[nb_exos][strlen(noms_des_fichiers[i])-4]='\0';

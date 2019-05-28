@@ -1,14 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "buffer.h"
 
-void viderBuffer()
-{
-    int c = 0;
-    while (c != '\n' && c != EOF)
-        {
-        c = getchar();
-        }
-}
 
 void Creation_exercice()
 {
