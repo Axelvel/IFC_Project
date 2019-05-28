@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "menu.h"
 #include <string.h>
 #include "comptageExercices.h"
+#include "menu.h"
 #include "struct.h"
 #include "nbQuestions.h"
 #include "saisie.h"
@@ -15,7 +15,7 @@ int main() {
 FILE* fichier = NULL;
 
     int i = 0;
-    int mode = 0;
+    int mode = 1;
     long pos_cur = 0; //position du curseur
     char nomFichier[20]="";
 

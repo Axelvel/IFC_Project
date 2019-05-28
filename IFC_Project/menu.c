@@ -28,12 +28,12 @@ void menu(char * nomFichier)
         }
     }
     //On choisit l'exercice
-    printf("\nBonjour, voici les differents exercices disponibles\n");
+    printf("Bonjour, voici les differents exercices disponibles\n");
     for(i=0;i<j;i++)
     {
         printf("\n%i -- %s",i,exos_dispos[i]);
     }
-    printf("\n\nAppuyez sur la touche correspondante a l'exercice voulu : ");
+    printf("\nAppuyez sur la touche correspondante à l'exercice voulu");
     scanf("%i",&choix);
 
     strcat(nomFichier,exos_dispos[choix]);
