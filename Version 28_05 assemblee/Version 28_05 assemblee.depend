@@ -161,3 +161,91 @@
 
 1559054968 c:\users\teimo\documents\cours\tc02\ifc\projet\version asemblee\version 28_05 assemblee\systemeexploitation.h
 
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\cherche_exercice.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\choixfichier.c
+	<stdio.h>
+	<stdlib.h>
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\comptageexercices.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\creation_exercice.c
+	<stdio.h>
+	<stdlib.h>
+	"buffer.h"
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\buffer.h
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"buffer.h"
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\systemeexploitation.h
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\struct.h
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\main.c
+	<stdlib.h>
+	<stdio.h>
+	"menu.h"
+	<string.h>
+	"comptageExercices.h"
+	"struct.h"
+	"nbQuestions.h"
+	"saisie.h"
+	"execution.h"
+	"lectureFichier.h"
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\menu.h
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\comptageexercices.h
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\nbquestions.h
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\saisie.h
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\execution.h
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\lecturefichier.h
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+	"cherche_exercice.h"
+
+1559846827 c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\cherche_exercice.h
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1559846827 source:c:\users\teimo\documents\cours\tc02\ifc\projet\ifc_project-assemblage\version 28_05 assemblee\saisie.c
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+

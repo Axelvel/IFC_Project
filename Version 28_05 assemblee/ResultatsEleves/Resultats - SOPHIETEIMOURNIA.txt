@@ -1,0 +1,6 @@
+Résultats de l'élève NOM :
+0) Réponse attendue : 4 -- Réponse donnée : 4
+1) Réponse attendue : 3 -- Réponse donnée : 2
+2) Réponse attendue : 4 -- Réponse donnée : 1
+
+Note : 1/4
