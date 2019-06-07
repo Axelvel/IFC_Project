@@ -7,6 +7,8 @@
 #include "execution.h"
 #include "lectureFichier.h"
 #include "cherche_exercice.h"
+#include "buffer.h"
+
 int menu()
 {
     char nomFichier[40]="";
@@ -62,10 +64,10 @@ int menu()
     {
     printf("Voulez-vous l'ouvrir en mode entrainement ou examen?\n 0 pour entrainement\n 1 pour exmen\n");
     scanf("%d",&mode);
-    NETTOYER();
+    viderBuffer();
     }
     while (mode!=1 && mode!=0);
-
+    NETTOYER();
     execution(questions,nb_question,mode);
     fclose(fichier);
 
@@ -73,9 +75,10 @@ int menu()
     {
         printf("\nVoulez-vous quitter l'application? Rentrez O pour OUI et N pour NON  ");
         scanf("%c",&choix_sortie);
-        NETTOYER();
+        viderBuffer();
     }
     while(choix_sortie!='O'&&choix_sortie!='N');
+    NETTOYER();
     if (choix_sortie=='O')
     {
         return 1;

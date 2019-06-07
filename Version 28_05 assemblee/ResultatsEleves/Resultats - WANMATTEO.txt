@@ -6,4 +6,12 @@ Résultats de l'eleve NOM :
 4) Reponse attendue : 4 -- Réponse donnee : 1
 5) Reponse attendue : 1 -- Réponse donnee : 32
 
+Note : 0/8Résultats de l'eleve NOM :
+0) Reponse attendue : 4 -- Réponse donnee : 2
+1) Reponse attendue : 3 -- Réponse donnee : 2
+2) Reponse attendue : 4 -- Réponse donnee : 2
+3) Reponse attendue : 2 -- Réponse donnee : 2
+4) Reponse attendue : 4 -- Réponse donnee : 2
+5) Reponse attendue : 1 -- Réponse donnee : 2
+
 Note : 0/8
