@@ -1,0 +1,9 @@
+Résultats de l'eleve NOM :
+0) Reponse attendue : 4 -- Réponse donnee : 3
+1) Reponse attendue : 3 -- Réponse donnee : 2
+2) Reponse attendue : 4 -- Réponse donnee : 1
+3) Reponse attendue : 2 -- Réponse donnee : 3
+4) Reponse attendue : 4 -- Réponse donnee : 1
+5) Reponse attendue : 1 -- Réponse donnee : 32
+
+Note : 0/8
