@@ -1,0 +1,6 @@
+#ifndef CREATION_EXERCICE_H_INCLUDED
+#define CREATION_EXERCICE_H_INCLUDED
+
+void Creation_exercice(void);
+
+#endif // CREATION_EXERCICE_H_INCLUDED
