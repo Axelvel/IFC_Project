@@ -1,0 +1,39 @@
+@4 1
+Combien font 2+2 ?
+#
+
+@3 2
+Résoudre l'équation suivante :
+1 + x = 4
+Combien vaut x ?
+#
+
+
+@2 0
+Test3
+Test4
+#
+
+
+@6 1
+Test3
+Test4
+#
+
+
+@9 3
+Test3
+Test4
+#
+
+
+@1 2
+Test3
+Test4
+#
+
+@1 4
+Test3
+Test4
+#
+
