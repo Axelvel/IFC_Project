@@ -1,0 +1,232 @@
+# depslib dependency file v1.0
+1559913562 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\buffer.c
+	<stdio.h>
+	<stdlib.h>
+
+1559913562 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\cherche_exercice.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1559913562 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\creation_exercice.c
+	<stdio.h>
+	<stdlib.h>
+	"buffer.h"
+
+1559913562 c:\users\mattéo\desktop\utbm\ifc\version 1106\buffer.h
+
+1559913562 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\inscription.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"buffer.h"
+
+1559913562 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1559917874 c:\users\mattéo\desktop\utbm\ifc\version 1106\struct.h
+
+1560247237 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\main.c
+	<stdlib.h>
+	<stdio.h>
+	"menu.h"
+	<string.h>
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+
+1559913562 c:\users\mattéo\desktop\utbm\ifc\version 1106\menu.h
+
+1559913563 c:\users\mattéo\desktop\utbm\ifc\version 1106\nbquestions.h
+
+1559913562 c:\users\mattéo\desktop\utbm\ifc\version 1106\execution.h
+
+1559913562 c:\users\mattéo\desktop\utbm\ifc\version 1106\lecturefichier.h
+
+1560246735 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+	"cherche_exercice.h"
+	"buffer.h"
+
+1559913563 c:\users\mattéo\desktop\utbm\ifc\version 1106\systemeexploitation.h
+
+1559913562 c:\users\mattéo\desktop\utbm\ifc\version 1106\cherche_exercice.h
+
+1559913563 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1560247825 source:c:\users\mattéo\desktop\utbm\ifc\version 1106\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"buffer.h"
+	"conio.h"
+
+1559913564 source:c:\users\teimo\desktop\version 1106\buffer.c
+	<stdio.h>
+	<stdlib.h>
+
+1559913564 source:c:\users\teimo\desktop\version 1106\cherche_exercice.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1559913564 source:c:\users\teimo\desktop\version 1106\creation_exercice.c
+	<stdio.h>
+	<stdlib.h>
+	"buffer.h"
+
+1559913564 c:\users\teimo\desktop\version 1106\buffer.h
+
+1560247826 source:c:\users\teimo\desktop\version 1106\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"buffer.h"
+	"conio.h"
+
+1559913564 c:\users\teimo\desktop\version 1106\systemeexploitation.h
+
+1559917876 c:\users\teimo\desktop\version 1106\struct.h
+
+1559913564 source:c:\users\teimo\desktop\version 1106\inscription.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"buffer.h"
+
+1559913564 source:c:\users\teimo\desktop\version 1106\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1560247238 source:c:\users\teimo\desktop\version 1106\main.c
+	<stdlib.h>
+	<stdio.h>
+	"menu.h"
+	<string.h>
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+
+1559913564 c:\users\teimo\desktop\version 1106\menu.h
+
+1559913564 c:\users\teimo\desktop\version 1106\nbquestions.h
+
+1559913564 c:\users\teimo\desktop\version 1106\execution.h
+
+1559913564 c:\users\teimo\desktop\version 1106\lecturefichier.h
+
+1560246736 source:c:\users\teimo\desktop\version 1106\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+	"cherche_exercice.h"
+	"buffer.h"
+
+1559913564 c:\users\teimo\desktop\version 1106\cherche_exercice.h
+
+1559913564 source:c:\users\teimo\desktop\version 1106\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1559913564 source:c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\buffer.c
+	<stdio.h>
+	<stdlib.h>
+
+1559913564 source:c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\cherche_exercice.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1559913564 source:c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\creation_exercice.c
+	<stdio.h>
+	<stdlib.h>
+	"buffer.h"
+
+1559913564 c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\buffer.h
+
+1560247826 source:c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"buffer.h"
+	"conio.h"
+
+1559913564 c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\systemeexploitation.h
+
+1559917876 c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\struct.h
+
+1559913564 source:c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1560247238 source:c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\main.c
+	<stdlib.h>
+	<stdio.h>
+	"menu.h"
+	<string.h>
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+
+1559913564 c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\menu.h
+
+1559913564 c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\nbquestions.h
+
+1559913564 c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\execution.h
+
+1559913564 c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\lecturefichier.h
+
+1560246736 source:c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+	"cherche_exercice.h"
+	"buffer.h"
+
+1559913564 c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\cherche_exercice.h
+
+1559913564 source:c:\users\teimo\documents\cours\tc02\ifc\projet\version 1106\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
