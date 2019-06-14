@@ -1,0 +1,20 @@
+@Gillou 2
+Quel est le prof d'info le plus eclate ?
+#
+
+@C 1
+Quel est le pire language de codage ?
+#
+
+@Sophie 100
+Quelle est la personne la plus inutile du groupe?
+#
+
+@100Hz 7
+Quelle est la fr‚quence de clignottement de l'oeuil de DD?
+#
+
+@demain 66
+Quand doit on rendre le projet ?
+#
+

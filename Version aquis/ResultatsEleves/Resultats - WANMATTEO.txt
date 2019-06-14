@@ -1,0 +1,20 @@
+Résultats de l'eleve NOM :
+0) Reponse attendue : 4 -- Réponse donnee : YAYAYA
+1) Reponse attendue : 3 -- Réponse donnee : Ich bi dzanid
+2) Reponse attendue : 4 -- Réponse donnee : dzaojd
+3) Reponse attendue : 2 -- Réponse donnee : dazije
+4) Reponse attendue : 4 -- Réponse donnee : asz,k
+5) Reponse attendue : 1 -- Réponse donnee : dnz
+
+Note : 0/8
+
+L'eleve a mit 16.000000 secondes pour finir l'exerciceRésultats de l'eleve WANMATTEO :
+0) Reponse attendue : Gillou -- Réponse donnee : gillou
+1) Reponse attendue : C -- Réponse donnee : C
+2) Reponse attendue : Sophie -- Réponse donnee : Sophie Temournia
+3) Reponse attendue : 100Hz -- Réponse donnee : 100Hz
+4) Reponse attendue : demain -- Réponse donnee : demain
+
+Note : 76/176
+
+L'eleve a mit 45.000000 secondes pour finir l'exercice
