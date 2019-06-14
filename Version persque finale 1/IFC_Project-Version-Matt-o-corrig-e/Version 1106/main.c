@@ -12,7 +12,7 @@ int main()
 {
     int sortie=0,choix;
 
-    printf("\nTapez 0 pour lancer la creation d'exercice");
+    printf("\nTapez 0 pour lancer la creation d'exercice, sur n'importe qu'elle autre touche pour acceder aux exercices");
     scanf("%d",&choix);
     if(choix==0)
     {
