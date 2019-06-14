@@ -88,8 +88,8 @@ void execution(S_question questions[],int nb_question,int mode)
 
         temps_ecoule = time(NULL);
 
-        printf("Vous avez mis %f secondes pour finir cet exercice !", difftime(temps_ecoule, temps_initial));
-        fprintf(fichier_resultat,"\n\nL'eleve a mit %f secondes pour finir l'exercice",difftime(temps_ecoule,temps_initial));
+        printf("Vous avez mis %2.1f secondes pour finir cet exercice !", difftime(temps_ecoule, temps_initial));
+        fprintf(fichier_resultat,"\n\nL'eleve a mit %2.1f secondes pour finir l'exercice",difftime(temps_ecoule,temps_initial));
 
         fclose(fichier_resultat);
     }
