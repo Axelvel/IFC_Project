@@ -7,7 +7,7 @@ Que veut dire if ?
 #
 
 @are 9
-Remplasser le mot manquant : You ___ coming to the beach ?
+Remplasser le mot manquant :  ___ you coming to the beach ?
 #
 
 @2 6
@@ -19,7 +19,7 @@ Remplissez le vide : I __________(rencontrer) the president last night!!
 #
 
 @for 2
-I'm studying ____ one year at UTBM
+I have been studying ____ a year at UTBM
 #
 
 @have 3
