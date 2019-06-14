@@ -1,0 +1,7 @@
+Résultats de l'eleve SOPHIETEIMOURNIA:
+0) Reponse attendue : sophie -- Réponse donnee : sophie
+1) Reponse attendue : matteo -- Réponse donnee : matteo
+
+Note : 3/3
+
+L'eleve a mit 8.000000 secondes pour finir l'exercice

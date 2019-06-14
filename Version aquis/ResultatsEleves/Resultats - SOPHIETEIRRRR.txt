@@ -1,0 +1,8 @@
+Résultats de l'eleve SOPHIETEIRRRR:
+0) Reponse attendue : lasophie -- Réponse donnee : lasophie
+1) Reponse attendue : sgfdh -- Réponse donnee : fdsg
+2) Reponse attendue : fdsgsdg -- Réponse donnee : qsdq
+
+Note : 2/8
+
+L'eleve a mit 9.000000 secondes pour finir l'exercice
