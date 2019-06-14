@@ -1,0 +1,14 @@
+Résultats de l'eleve NAKAMURAAYA:
+0) Reponse attendue : Computer -- Réponse donnee : computer
+1) Reponse attendue : si -- Réponse donnee : sI
+2) Reponse attendue : are -- Réponse donnee : ARE
+3) Reponse attendue : 2 -- Réponse donnee : 2
+4) Reponse attendue : met -- Réponse donnee : meet
+5) Reponse attendue : for -- Réponse donnee : FOR
+6) Reponse attendue : have -- Réponse donnee : have
+7) Reponse attendue : long -- Réponse donnee : long
+8) Reponse attendue : fast -- Réponse donnee : old
+
+Note : 35/48
+
+L'eleve a mit 46.000000 secondes pour finir l'exercice

@@ -1,0 +1,14 @@
+Résultats de l'eleve ASSD:
+0) Reponse attendue : Computer -- Réponse donnee : cez
+1) Reponse attendue : si -- Réponse donnee : cq
+2) Reponse attendue : are -- Réponse donnee : e
+3) Reponse attendue : 2 -- Réponse donnee : ce
+4) Reponse attendue : met -- Réponse donnee : ce
+5) Reponse attendue : for -- Réponse donnee : ce
+6) Reponse attendue : have -- Réponse donnee : ce
+7) Reponse attendue : long -- Réponse donnee : ce
+8) Reponse attendue : fast -- Réponse donnee : ce
+
+Note : 0/48
+
+L'eleve a mit 9.000000 secondes pour finir l'exercice

@@ -35,6 +35,7 @@ int menu()
     do{
             printf("\nAppuyez sur la touche correspondante a l'exercice voulu ");
             scanf("%i",&choix);
+            viderBuffer();
     }
     while(choix>=nb_exos);
 

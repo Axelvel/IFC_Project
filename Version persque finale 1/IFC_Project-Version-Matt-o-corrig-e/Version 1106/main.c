@@ -7,14 +7,15 @@
 #include "execution.h"
 #include "lectureFichier.h"
 #include "Creation_exercice.h"
+#include "conio.h"
 
 int main()
 {
     int sortie=0,choix;
 
-    printf("\nTapez 0 pour lancer la creation d'exercice, sur n'importe qu'elle autre touche pour acceder aux exercices");
-    scanf("%d",&choix);
-    if(choix==0)
+    printf("\nTapez C pour lancer la creation d'exercice, sur n'importe quelle lettre pour acceder au exercices ");
+    choix=getch();
+    if(choix=='C')
     {
         Creation_exercice();
     }

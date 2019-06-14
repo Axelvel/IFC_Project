@@ -313,3 +313,86 @@
 
 1560458497 c:\users\mattéo\desktop\utbm\ifc\ifc_project-version-matt-o-corrig-e\ifc_project-version-matt-o-corrig-e\version 1106\creation_exercice.h
 
+1560520072 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\buffer.c
+	<stdio.h>
+	<stdlib.h>
+
+1560460917 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\cherche_exercice.c
+	<stdio.h>
+	<sys/types.h>
+	<dirent.h>
+	<string.h>
+
+1560520072 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\execution.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"buffer.h"
+	"conio.h"
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\systemeexploitation.h
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\struct.h
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\buffer.h
+
+1560458497 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\inscription.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"buffer.h"
+
+1560458497 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\lecturefichier.c
+	<stdio.h>
+	<stdlib.h>
+	"struct.h"
+	<string.h>
+
+1560519570 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\main.c
+	<stdlib.h>
+	<stdio.h>
+	"menu.h"
+	<string.h>
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+	"Creation_exercice.h"
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\menu.h
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\nbquestions.h
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\execution.h
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\lecturefichier.h
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\creation_exercice.h
+
+1560458497 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\nbquestions.c
+	<stdio.h>
+	<stdlib.h>
+
+1560520544 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\creation_exercice.c
+	<stdio.h>
+	<stdlib.h>
+	"buffer.h"
+	<string.h>
+
+1560520084 source:c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"systemeExploitation.h"
+	"struct.h"
+	"nbQuestions.h"
+	"execution.h"
+	"lectureFichier.h"
+	"cherche_exercice.h"
+	"buffer.h"
+
+1560458497 c:\users\mattéo\desktop\utbm\ifc\version persque finale 1\ifc_project-version-matt-o-corrig-e\version 1106\cherche_exercice.h
+

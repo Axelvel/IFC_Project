@@ -1,0 +1,14 @@
+Résultats de l'eleve BOB:
+0) Reponse attendue : Computer -- Réponse donnee : frz
+1) Reponse attendue : si -- Réponse donnee : fz
+2) Reponse attendue : are -- Réponse donnee : fz
+3) Reponse attendue : 2 -- Réponse donnee : fz
+4) Reponse attendue : met -- Réponse donnee : fz
+5) Reponse attendue : for -- Réponse donnee : fz
+6) Reponse attendue : have -- Réponse donnee : fz
+7) Reponse attendue : long -- Réponse donnee : fz
+8) Reponse attendue : fast -- Réponse donnee : z
+
+Note : 0/48
+
+L'eleve a mit      9.0 secondes pour finir l'exercice

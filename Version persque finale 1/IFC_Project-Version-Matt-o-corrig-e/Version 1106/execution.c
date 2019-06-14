@@ -53,6 +53,7 @@ void execution(S_question questions[],int nb_question,int mode)
                 printf("\nnombre de points : %i", questions[j].points);
                 printf("\n\nEntrez votre reponse : ");
                 gets(reponse);
+                enlever_les_espaces(reponse);
                 nb_tentatives++;
             }
             while(stricmp(reponse,questions[j].solution)!=0 && nb_tentatives != 3);
@@ -84,6 +85,7 @@ void execution(S_question questions[],int nb_question,int mode)
             printf("\nnombre de points : %i", questions[j].points);
             printf("\n\nEntrez votre reponse :");
             gets(reponse);
+            enlever_les_espaces(reponse);
             totalpoints=totalpoints + questions[j].points;
             system("cls");
             if(stricmp(reponse,questions[j].solution)==0)

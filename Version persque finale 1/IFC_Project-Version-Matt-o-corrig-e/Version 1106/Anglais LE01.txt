@@ -1,0 +1,36 @@
+@Computer 4
+Quelle est la traduction d'ordinateur en Anglais ?
+#
+
+@si 2
+Que veut dire if ?
+#
+
+@are 9
+Remplasser le mot manquant : You ___ coming to the beach ?
+#
+
+@2 6
+Quel est la phrase correct ? 1: I am agree with you 2: I agree with you
+#
+
+@met 4
+Remplissez le vide : I __________(rencontrer) the president last night!!
+#
+
+@for 2
+I'm studying ____ one year at UTBM
+#
+
+@have 3
+I ____ left the building
+#
+
+@long 9
+How ___ have you been driving ?
+#
+
+@fast 9
+How ____ is the new ferrari?
+#
+
